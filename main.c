@@ -5,15 +5,15 @@
  * Author : carrolls@trine.edu
  */ 
 
-#include <avr/io.h>
-
+//#include <avr/io.h>
+#include <stdint.h>
 
 int main(void)
 {
     volatile int16_t i = 0;
     while (1) 
     {
-		i += 1<<1;
+		i += 1<<0;
 		
     }
 }
